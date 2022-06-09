@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Calculator = () => {
-    
+
         const [val, setVal] = useState("");
 
         const backspace = () => {
@@ -21,7 +21,7 @@ const Calculator = () => {
         }
 
     return (
-        <div>
+        <div style={{backgroundColor: 'gray'}}>
             <div className="container my-2">
                 <div className="row">
                     <div className="col-12">
